@@ -1,0 +1,325 @@
+/* general */
+body {
+    font-family: 'Roboto';
+    overflow-x: hidden;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #2a2b44;
+}
+
+p {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #2a2b44;
+    display: inline-block;
+}
+
+.white-text {
+    color: white;
+}
+
+.center-div {
+    text-align: center;
+}
+
+.default-padding {
+    padding: 5% 15%;
+}
+
+.more-padding {
+    padding: 5% 20%;
+}
+
+.less-padding {
+    padding: 0 7%;
+}
+
+
+
+
+/* buttons */
+.btn {
+    border-radius: 50px;
+}
+
+.btn-custom {
+    background-color: #f6999d;
+    border: 2px solid #f6999d;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.btn-custom-outline {
+    background-color: white;
+    border: 2px solid #f6999d;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #f6999d;
+}
+
+.btn-custom-outline:hover {
+    background-color: #f6999d;
+    color: black;
+}
+
+.btn-custom-dark {
+    background-color: #2a2b44;
+    border: 2px solid #2a2b44;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.btn-custom-dark:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+/* transition images */
+#first-wave {
+    background-color: #EEDC82;
+}
+
+#first-wave-img {
+    position: relative;
+    top: 10px;
+    /* this was needed otherwise you would still see some leftovers of the background-color at the edge */
+}
+
+#second-wave {
+    background-color: white;
+}
+
+#third-wave {
+    background-color: #d0c1f5;
+}
+
+.fourth-wave {
+    background-color: #2a2b44;
+}
+
+/* navbar */
+.navbar {
+    font-weight: 600;
+    padding: 0.5% 15%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2a2b44;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+
+
+/* FIRST SECTION: Looks like marketing's back on the menu */
+#first-section {
+    background-color: #EEDC82;
+    padding-top: 10%;
+}
+
+#first-section-title {
+    padding-top: 15%;
+}
+
+#first-section-subtitle {
+    padding: 5% 0;
+}
+
+#egg-div {
+    margin: 0 50px 50px 50px;
+    border-radius: 100% 100% 90% 90%;
+    background-color: white;
+    padding: 25% 10%;
+    position: relative;
+}
+
+#cereal-bowl {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    width: 45%
+}
+
+.usp {
+    padding-top: 5%;
+    margin-left: 8%;
+}
+
+
+/* SECOND SECTION: Komende sessies op het menu  */
+#second-section {
+    background-color: white;
+}
+
+#second-section-text-div {
+    padding: 0 8%;
+}
+
+#second-section-p {
+    padding: 1% 15%;
+}
+
+#second-section-schedule-div {
+    margin: 5% 0;
+}
+
+.second-section-schedule-block {
+    border-top: 5px solid #2a2b44;
+    border-bottom: 5px solid #2a2b44;
+    border-left: 5px solid #2a2b44;
+    padding: 0;
+}
+.second-section-schedule-block:first-child {
+    border-radius: 30px 0 0 30px;
+}
+.second-section-schedule-block:last-child {
+    border-right: 5px solid #2a2b44;
+    border-radius: 0 30px 30px 0;
+}
+
+.second-section-date-block {
+    border-bottom: 5px solid #2a2b44;
+    border-left: 5px solid #2a2b44;
+    position: relative;
+    float: right;
+    width: 30%;
+    background-color: #2a2b44;
+    border-radius: 0 0 0 10px;
+}
+
+#second-section-date-block-last {
+    border-bottom: 5px solid #2a2b44;
+    border-left: 5px solid #2a2b44;
+    position: relative;
+    float: right;
+    width: 30%;
+    background-color: #2a2b44;
+    border-radius: 0 20px 0 10px;
+}
+
+.second-section-date-p {
+    color: white;
+    display: block;
+    margin-bottom: 0;
+}
+
+.second-section-block-content {
+    padding: 100px 0 30px 0;
+}
+
+.second-section-block-title {
+    height: 100px;
+}
+
+
+
+/* THIRD SECTION: Vaste hosts */
+#third-section {
+    background-color: #d0c1f5;
+}
+
+#beer-bottle {
+    position: absolute;
+    top: 220%;
+    left: 70%;
+    width: 30%;
+}
+
+.hosts-div {
+    padding-bottom: 20%;
+}
+
+.hosts-div-to-left {
+    position: relative;
+    right: 5%;
+}
+
+.hosts-images {
+    width: 55%;
+    padding: 20% 0;
+}
+
+.hosts-div-lower {
+    position: relative;
+    top: 100px;
+}
+
+#third-header {
+    background-color: #d0c1f5;
+}
+
+#third-header-img {
+    position: relative;
+    top: 10px;
+}
+
+/* FOURTH SECTION: Deze speakers waren er ook (most classes are inherited from third section) */
+#fourth-section {
+    background-color: white;
+}
+
+/* FIFTH SECTION: Welke ingredienten kun je verwachten? */
+#fifth-section {
+    background-color: #2a2b44;
+    padding-bottom: 100px;
+}
+
+#fifth-section-title {
+    padding: 5% 20% 2%;
+}
+
+#juice-glass {
+    position: absolute;
+    top: 530%;
+    right: 0;
+    width: 30%;
+}
+
+.ingredienten-icon {
+    width: 100px;
+    height: 100px;
+    margin: 10%;
+}
+
+
+/* FOOTER */
+#footer-div {
+    padding: 3% 2%;
+}
+
+.footer-links {
+    padding: 0 20px;
+    color: #2a2b44;
+}
+
+/* ANIMATIONS */
+#second-section-first-block:hover {
+    background-color: #d0c1f5;
+}
+#second-section-second-block:hover {
+    background-color: #d0c1f5;
+}
+#second-section-third-block:hover {
+    background-color: #d0c1f5;
+}
+#second-section-fourth-block:hover {
+    background-color: #d0c1f5;
+}
+#second-section-fifth-block:hover {
+    background-color: #d0c1f5;
+}
